@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import List, Tuple, Union
-import common
+from saddlepoint_accountant import common
 import math
 import numpy as np
 from sympy import bell
