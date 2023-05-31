@@ -24,7 +24,7 @@ setuptools.setup(
     install_requires=[
         "prv_accountant",
         "dp_accounting",
-        "scipy",
+        "scipy>=1.8.0",
         "numpy",
         "mpmath",
         "sympy"
