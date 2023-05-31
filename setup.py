@@ -24,6 +24,7 @@ setuptools.setup(
     },
     install_requires=[
         "prv_accountant",
+        "dp_accounting",
         "scipy",
         "numpy",
         "mpmath",
