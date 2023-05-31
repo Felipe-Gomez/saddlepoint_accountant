@@ -8,7 +8,7 @@ with open('README.md') as f:
 setuptools.setup(
     name='SaddlePoint',
     version=version,
-    description='The saddlepoint accountant for approximating DP guarantees for the DP-SGD algorithm under various DP mechanisms', 
+    description='An algorithm to compose privacy guarantees of differentially private (DP) mechanisms.', 
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/Felipe-Gomez/saddlepoint_accountant',
