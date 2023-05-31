@@ -1,9 +1,9 @@
 
-from abstract_privacy_mechanism import PrivacyMechanism
+from saddlepoint_accountant.abstract_privacy_mechanism import PrivacyMechanism
 from typing import Tuple
 
 import numpy as np; import math; from scipy.stats import norm
-from common import _log_sub, _compute_gaussian_cumulant
+from saddlepoint_accountant.common import _log_sub, _compute_gaussian_cumulant
 from scipy.integrate import quad
 
 class GaussianMechanism(PrivacyMechanism):
