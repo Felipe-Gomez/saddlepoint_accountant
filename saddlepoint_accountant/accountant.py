@@ -1,6 +1,6 @@
-from abstract_privacy_mechanism import PrivacyMechanism 
+from saddlepoint_accountant.abstract_privacy_mechanism import PrivacyMechanism 
 from typing import List, Tuple, Union
-import common 
+from saddlepoint_accountant import common 
 import math
 import numpy as np
 from scipy.stats import norm
