@@ -2,7 +2,7 @@ import mpmath as mp
 import numpy as np
 import pickle
 import time
-from truth_accountant import *
+from .truth_accountant import *
 from multiprocessing import Pool
 
 '''
