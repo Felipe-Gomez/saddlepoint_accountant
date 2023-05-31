@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/Felipe-Gomez/saddlepoint_accountant',
     author='Felipe Gomez',
-    packages=["saddlepoint_accountant", "saddlepoint_accountant.gaussian_mechanism"],
+    packages=["saddlepoint_accountant"],
     python_requires=">=3.7.0",
     include_package_data=True,
     setup_requires=["numpy", "scipy", "sympy", "mpmath"],
