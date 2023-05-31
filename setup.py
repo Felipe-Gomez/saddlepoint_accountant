@@ -16,7 +16,6 @@ setuptools.setup(
     packages=["saddlepoint_accountant"],
     python_requires=">=3.7.0",
     include_package_data=True,
-    setup_requires=["numpy", "scipy", "sympy", "mpmath"],
     extras_require={
         "extra": [
             "jupyter",
