@@ -12,8 +12,8 @@ contains the functions ```compute_epsilon_mp``` and ```compute_delta_mp```, both
 accuracy by numerically computing the integral above. It should be emphasized that both of these functions (especially ```compute_epsilon_mp``` since it needs to invert the integral) 
 are computationally expensive, with ```compute_epsilon_mp``` taking over 30 minutes for a single function call on a commercial laptop.
 
-The file ```mpmath_s2_q0p01_n1500_4500_32.pkl``` is the result of calling ```compute_epsilon_mp``` for fixed $\delta = 10^{-15}$ for varying compositions between
+The file ```mpmath_s2_q0p01_delta_1em15_n1500_4500_32.pkl``` is the result of calling ```compute_epsilon_mp``` for fixed $\delta = 10^{-15}$ for varying compositions between
 1500 and 4500. This file contains the values used in the "Truth" curve of the ICML paper. 
 
-The file ```run_truth_calc_script.py``` is the python file which generated ```mpmath_s2_q0p01_n1500_4500_32.pkl```. It makes use of python's multiprocessing to paralleize
+The file ```run_truth_calc_script.py``` is the python file which generated ```mpmath_s2_q0p01_delta_1em15_n1500_4500_32.pkl```. It makes use of python's multiprocessing to paralleize
 the computation across multiple compositions. 
