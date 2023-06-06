@@ -1,10 +1,10 @@
 
-from abstract_privacy_mechanism import PrivacyMechanism
+from saddlepoint_accountant.abstract_privacy_mechanism import PrivacyMechanism
+from saddlepoint_accountant.common import _log_add, _log_sub, 
 from typing import Tuple
 
 import sympy
-import numpy as np; import math;
-from common import _log_add, _log_sub
+import numpy as np; import math
 from scipy.integrate import quad
 
 class LaplaceMechanism(PrivacyMechanism):
