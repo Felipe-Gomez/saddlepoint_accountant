@@ -1,6 +1,6 @@
 
 from saddlepoint_accountant.abstract_privacy_mechanism import PrivacyMechanism
-from saddlepoint_accountant.common import _log_add, _log_sub, 
+from saddlepoint_accountant.common import _log_add, _log_sub 
 from typing import Tuple
 
 import sympy
