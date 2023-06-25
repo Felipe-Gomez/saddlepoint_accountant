@@ -56,7 +56,7 @@ class GaussianMechanism(PrivacyMechanism):
 
     def privacy_loss_without_subsampling(self, x: float) -> float:
         '''
-        Privacy loss log ( P(x+sensitivity) / P(x) ) assuming sensitivity 1
+        Privacy loss log ( P(x-sensitivity) / P(x) ) assuming sensitivity 1
         with Gaussian pdfs.
 
         Args:
