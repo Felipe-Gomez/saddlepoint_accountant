@@ -9,10 +9,8 @@ The notebook `Main_Body_Figures.ipynb` replicates all figures found in the paper
 
 ## Code Overview
 #### The directory `saddlepoint_accountant/` contains all code for the Saddle-Point Accountant (SPA) implementation. This includes:
-- The method of steepest descent based version of the SPA: $\delta^{(k)}_{L, \text{ SP-MSD}}(\varepsilon)$ as defined in **Definition 3.6**.
-- The inverted curve: $\varepsilon^{(k)}_{L, \text{ SP-MSD}}(\delta)$.
-- The central limit theorem based version of the SPA: $\delta_{L, \text{ SP-CLT}}(\varepsilon)$ as defined in **Definition 5.1**.
-- The inverted curve: $\varepsilon_{L,\text{ SP-CLT}}(\delta)$.
+- The method of steepest descent based version of the SPA: $\delta^{(k)}\_{L, \text{ SP-MSD}}(\varepsilon)$ as defined in **Definition 3.6**, and the inverted curve $\varepsilon^{(k)}\_{L, \text{ SP-MSD}}(\delta)$.
+- The central limit theorem based version of the SPA: $\delta\_{L, \text{ SP-CLT}}(\varepsilon)$ as defined in **Definition 5.1**, and the inverted curve $\varepsilon\_{L,\text{ SP-CLT}}(\delta)$.
 - The error in the central limit theorem based SPA: $\text{err}_{\text{SP}}(\varepsilon;t_0)$ as defined in **Theorem 5.7**, with the choice of $t_0$ being the saddle-point as defined in **Definition 3.2**.
   
 #### The subdirectory `saddlepoint_accountant/other_accountants/` contains code for the GDP and Ground-Truth Accountant.
